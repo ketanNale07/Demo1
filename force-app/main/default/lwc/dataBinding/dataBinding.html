@@ -1,0 +1,11 @@
+<template>
+    <lightning-card class="slds-m-around_medium">
+        <p>Hello {firstName} {lastName}</p>
+    <lightning-input class="slds-m-left_medium" name="fname"  label="First Name" value={firstName}></lightning-input>
+    <br/>
+    <lightning-input class="slds-m-left_medium" name="lname" label="Last Name" value={lastName}></lightning-input>
+    <br/>
+    <lightning-button label="Click Me" variant="brand" onclick={handleClick}></lightning-button>
+   
+</lightning-card>
+</template>
